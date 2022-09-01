@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --quiet index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/nayabbeig/runjs/issues"
   },
-  "homepage": "https://github.com/nayabbeig/runjs#readme"
+  "homepage": "https://github.com/nayabbeig/runjs#readme",
+  "dependencies": {
+    "nodemon": "^2.0.19"
+  }
 }
